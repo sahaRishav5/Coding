@@ -21,7 +21,7 @@ ll solve(vector<int>& arr,int idx,bool flag){
 
 int main()
 {
-    vector<int> arr = {6,2,1,2,4,5};
+    vector<int> arr = {4,2,7,3,1};
     n = arr.size();
     memset(dp, -1, sizeof(dp));
     cout << solve(arr,0, true);//true as starting index is 0(even)

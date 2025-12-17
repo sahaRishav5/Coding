@@ -14,7 +14,7 @@ ll solve(vector<int>& arr,int n){
 
 int main()
 {
-    vector<int> arr = {6,2,1,2,4,5};
+    vector<int> arr = {4,2,7,3,1};
     n = arr.size();
     cout << solve(arr,n);//true as starting index is 0(even)
     return 0;
