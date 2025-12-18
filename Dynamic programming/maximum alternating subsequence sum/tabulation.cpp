@@ -2,7 +2,7 @@
 using namespace std;
 int n;
 typedef long long ll;
-ll solve(vector<int>& arr,int n){
+ll solve(vector<int>& arr){
     int dp[n + 1][2];
     memset(dp, 0, sizeof(dp));
     for (int i = 1; i <= n;i++){
@@ -16,6 +16,6 @@ int main()
 {
     vector<int> arr = {4,2,7,3,1};
     n = arr.size();
-    cout << solve(arr,n);//true as starting index is 0(even)
+    cout << solve(arr);
     return 0;
 }
